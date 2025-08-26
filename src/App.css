@@ -1,0 +1,21 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-destaques-botoes:#FF0000;
+  --color-botoes:#1D3557;
+  --color-icons:#A8A8A8;
+  --color-background: #0A0A0A;
+
+ 
+
+
+
+}
+@theme {
+  --font-destaques: Poppins, sans-serif;
+  --font-textoCorrido:Roboto, sans-serif;
+}
+body{
+  background-color: #0A0A0A;
+}

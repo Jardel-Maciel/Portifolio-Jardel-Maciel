@@ -26,11 +26,11 @@ export default function Projetos() {
             </p>
 
             <div className="flex gap-10 justify-center pt-10">
-              <button className="bg-destaques-botoes p-4 w-30  mb-10 rounded-2xl ">
+              <button className="bg-destaques-botoes  md:hover:bg-red-800 md:cursor-pointer transition-all p-4 w-30  mb-10 rounded-2xl  ">
                 <a href="https://jardel-maciel.github.io/plano-de-saude2/" target="_blank">Demo</a>
               </button>
 
-              <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
+              <button className="bg-botoes transition-all md:hover:bg-blue-800 md:cursor-pointer p-4 w-30  mb-10 rounded-2xl ">
                 <a href="https://github.com/Jardel-Maciel/plano-de-saude2" target="_blank">GitHub</a>
               </button>
             </div>
@@ -51,11 +51,11 @@ export default function Projetos() {
             </p>
 
             <div className="flex gap-10 justify-center pt-10">
-              <button className="bg-destaques-botoes p-4 w-30  mb-10 rounded-2xl ">
+              <button className="bg-destaques-botoes md:hover:bg-red-800 md:cursor-pointer transition-all p-4 w-30  mb-10 rounded-2xl ">
                 <a href="https://jardel-maciel.github.io/projeto_login/" target="_blank">Demo</a>
               </button>
 
-              <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
+              <button className="bg-botoes transition-all md:hover:bg-blue-800 md:cursor-pointer p-4 w-30  mb-10 rounded-2xl ">
                 <a href="https://github.com/Jardel-Maciel/projeto_login" target="_blank">GitHub</a>
               </button>
             </div>
@@ -76,11 +76,11 @@ export default function Projetos() {
             </p>
 
             <div className="flex gap-10 justify-center pt-10">
-              <button className="bg-destaques-botoes p-4 w-30  mb-10 rounded-2xl ">
+              <button className="bg-destaques-botoes md:hover:bg-red-800 md:cursor-pointer transition-all p-4 w-30  mb-10 rounded-2xl ">
                 <a href="https://jardel-maciel.github.io/projeto_cordel/" target="_blank">Demo</a>
               </button>
 
-              <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
+              <button className="bg-botoes  md:hover:bg-blue-800 md:cursor-pointer transition-all p-4 w-30  mb-10 rounded-2xl ">
                 <a href="https://github.com/Jardel-Maciel/projeto_cordel" target="_blank">GitHub</a>
               </button>
             </div>       

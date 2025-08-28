@@ -2,19 +2,18 @@ import foto from "../hero/foto-desk.png"
 export default function Hero(){
     return(
         <>
-            <section className="flex flex-col justify-center items-center pt-10 md:flex-row md:items-center md:h-screen md:gap-20 ">
+            <section className="flex flex-col justify-center items-center pt-10 md:pt- md:flex-row md:items-center md:h-screen md:gap-20 ">
                 <div>
-                    <img className="size-70 rounded-full" src={foto} alt="foto jardel maciel" />
+                    <img className="size-70 md:size-100 rounded-full" src={foto} alt="foto jardel maciel" />
                 </div>
 
-                <div className="text-white flex flex-col pt-10 justify-center items-center w-90 gap-y-2.5 ">
-                    <h1 className="font-destaques font-bold text-3xl ">Jardel Maciel</h1>
-                    <h2 className="font-destaques font-semi-bold text-3xl ">Front-End Developer</h2>
-                    <p className=" gap-y-10 font-textoCorrido font-light">React, Type Script, JavaScript, HTML, CSS <br /> Inovação, performance e design na palma da sua mão.</p>
+                <div className="text-white flex flex-col pt-10 justify-center items-center md:items-start w-90 gap-y-2.5 ">
+                    <h1 className="font-destaques font-bold md:text-5xl md:w-95 text-3xl ">Jardel Maciel</h1>
+                    <h2 className=" font-destaques font-semi-bold text-3xl md:text-3xl">Front-End Developer</h2>
+                    <p className="md:w-90 gap-y-10 font-textoCorrido font-light">React, Type Script, JavaScript, HTML, CSS <br /> Inovação, performance e design na palma da sua mão.</p>
                 </div>
 
                 
             </section>
         </>
-    )
-}
+    )

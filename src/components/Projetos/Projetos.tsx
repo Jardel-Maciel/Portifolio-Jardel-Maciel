@@ -13,10 +13,8 @@ export default function Projetos() {
 
         {/*Inicio dos Projetos - projeto med*/}
 
-        <section className="md:flex md:gap-7 md:pt-10  ">
-          
+        <section className="md:flex md:flex-wrap md:w-300 md:gap-7 md:pt-10 md:justify-center ">
           <div className="bg-zinc-900 w-85  text-white grid grid-cols-1 justify-center rounded-b-2xl mb-5">
-
             <img src={med} alt="projeto maciel med" />
             <h2 className="pl-2 pt-5 pb-5 font-destaques font-bold">
               Projeto Maiel Med
@@ -29,19 +27,17 @@ export default function Projetos() {
 
             <div className="flex gap-10 justify-center pt-10">
               <button className="bg-destaques-botoes p-4 w-30  mb-10 rounded-2xl ">
-                <a href="#">Demo</a>
+                <a href="https://jardel-maciel.github.io/plano-de-saude2/" target="_blank">Demo</a>
               </button>
 
               <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
-                <a href="#">Guit Hub</a>
+                <a href="https://github.com/Jardel-Maciel/plano-de-saude2" target="_blank">GitHub</a>
               </button>
             </div>
           </div>
-         
 
           {/*Inicio dos Projetos - projeto login*/}
           <div className="bg-zinc-900 w-85  text-white grid grid-cols-1 justify-center rounded-b-2xl mb-5">
-
             <img src={login} alt="projeto login" />
 
             <h2 className="pl-2 pt-5 pb-5 font-destaques font-bold">
@@ -56,24 +52,23 @@ export default function Projetos() {
 
             <div className="flex gap-10 justify-center pt-10">
               <button className="bg-destaques-botoes p-4 w-30  mb-10 rounded-2xl ">
-                <a href="#">Demo</a>
+                <a href="https://jardel-maciel.github.io/projeto_login/" target="_blank">Demo</a>
               </button>
 
               <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
-                <a href="#">Guit Hub</a>
+                <a href="https://github.com/Jardel-Maciel/projeto_login" target="_blank">GitHub</a>
               </button>
             </div>
           </div>
 
           {/*Inicio dos Projetos cordel*/}
-          <div className="bg-zinc-900 w-85  text-white grid grid-cols-1 justify-center rounded-b-2xl mb-5">
-
+          <div className="bg-zinc-900 w-85  text-white grid         grid-cols-1 justify-center rounded-b-2xl mb-5">
             <img src={cordel} alt="projeto cordel" />
 
             <h2 className="pl-2 pt-5 pb-5 font-destaques font-bold">
               Projeto Cordel
             </h2>
-            
+
             <p className=" pl-2 font-textoCorrido font-light pb-20">
               Projeto pessoal criado apartir de um projeto proposto na faculdade
               que original mente era escrito em Python, então decidi recriar o
@@ -82,16 +77,19 @@ export default function Projetos() {
 
             <div className="flex gap-10 justify-center pt-10">
               <button className="bg-destaques-botoes p-4 w-30  mb-10 rounded-2xl ">
-                <a href="#">Demo</a>
+                <a href="https://jardel-maciel.github.io/projeto_cordel/" target="_blank">Demo</a>
               </button>
 
               <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
-                <a href="#">Guit Hub</a>
+                <a href="https://github.com/Jardel-Maciel/projeto_cordel" target="_blank">GitHub</a>
               </button>
-            </div>
+            </div>       
           </div>
+
+         
+          
         </section>
       </section>
     </>
-  );
+  )
 }

@@ -11,7 +11,7 @@ export default function Redes(){
                 </div>
                 <div className="flex justify-center items-center pt-10 pb-10 gap-8">
                     <a href="#"><img className="w-10" src={instagram} alt="instagram" /></a>
-                    <a href="#"><img className="w-10" src={guithub} alt="guithub" /></a>
+                    <a href="https://github.com/Jardel-Maciel" target="_blank"><img className="w-10" src={guithub} alt="github" /></a>
                     <a href="#"><img className="w-10" src={email} alt="email" /></a>
                 </div>
             </section>

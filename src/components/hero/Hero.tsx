@@ -1,3 +1,4 @@
+
 import foto from "../hero/foto-desk.png";
 export default function Hero() {
   return (
@@ -29,7 +30,7 @@ export default function Hero() {
             </button>
 
             <button className="bg-botoes p-4 w-30  mb-10 rounded-2xl ">
-              <a href="#">Guit Hub</a>
+              <a href="https://github.com/Jardel-Maciel" target="_blank" rel="noopener noreferrer">GitHub</a>
             </button>
           </div>
         </div>

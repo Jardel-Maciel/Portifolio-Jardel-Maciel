@@ -7,15 +7,12 @@
   --color-icons:#A8A8A8;
   --color-background: #0A0A0A;
 
- 
-
-
-
 }
 @theme {
   --font-destaques: Poppins, sans-serif;
   --font-textoCorrido:Roboto, sans-serif;
 }
-body{
+body {
   background-color: #0A0A0A;
+  scroll-behavior: smooth;
 }

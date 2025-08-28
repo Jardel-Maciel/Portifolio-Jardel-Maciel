@@ -26,7 +26,7 @@ export default function Hero() {
 
           <div className="flex gap-10 justify-center pt-10">
             <button className="bg-destaques-botoes md:hover:bg-red-800 md:cursor-pointer transition-all p-4 w-30  mb-10 rounded-2xl ">
-              <a href="Sobre">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </button>
 
             <button className="bg-botoes p-4 md:hover:bg-blue-800 md:cursor-pointer transition-all w-30  mb-10 rounded-2xl ">

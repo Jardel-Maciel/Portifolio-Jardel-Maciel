@@ -10,14 +10,27 @@ import Tecnologias from './components/Tecnologias/Tecnologias'
 function App() {
   return (
     <>
-     <Navegation/>
-     <Hero/>
-     <Tecnologias/>
-     <Projetos/>
-     <Redes/>
-     <Sobre/>
+      <Navegation />
+      <section id="hero">
+        <Hero />
+      </section>
+
+      <section id="tecnologias">
+        <Tecnologias />
+      </section>
+
+      <section id="projetos">
+        <Projetos />
+      </section>
+
+      <section id="redes">
+        <Redes />
+      </section>
+
+      <section id="sobre">
+        <Sobre />
+      </section>
     </>
-    
   )
 }
 

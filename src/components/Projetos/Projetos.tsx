@@ -45,9 +45,10 @@ export default function Projetos() {
             </h2>
 
             <p className=" pl-2 font-textoCorrido font-light pb-20">
-              Projeto pessoal criado apartir de um projeto proposto na faculdade
-              que original mente era escrito em Python, então decidi recriar o
-              desafio usando as tecnicas de desenvolvimento web.
+              Este projeto foi criado durante o curso de HTML e CSS, do site Curso Em Vídeo
+              com o Gustavo Guanabara, tendo como finalidade a pratica da criação de formularios e a responsividade
+              do site.
+        
             </p>
 
             <div className="flex gap-10 justify-center pt-10">
@@ -70,9 +71,8 @@ export default function Projetos() {
             </h2>
 
             <p className=" pl-2 font-textoCorrido font-light pb-20">
-              Projeto pessoal criado apartir de um projeto proposto na faculdade
-              que original mente era escrito em Python, então decidi recriar o
-              desafio usando as tecnicas de desenvolvimento web.
+              Este projeto foi criado durante o curso de HTML e CSS, do site Curso Em Vídeo com o Gustavo Guanabara, onde usamos 
+              efeitos tipo paralax, e treinamos também a responsividade do site.
             </p>
 
             <div className="flex gap-10 justify-center pt-10">

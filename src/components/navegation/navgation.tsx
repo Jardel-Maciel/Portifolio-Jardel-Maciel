@@ -2,7 +2,7 @@ import logo from "../navegation/logo-JM.png";
 export default function Navegation() {
   return (
     <>
-      <header className="  md:w 48rem text-white flex items-center justify-around pt-2 md:fixed top-0 w-full">
+      <header className="  md:w 48rem text-white flex items-center justify-around pt-2 md:fixed top-0 w-full bg-background pb-2">
         <div>
           <a href="#">
             <img className="size-10" src={logo} alt="logo" />

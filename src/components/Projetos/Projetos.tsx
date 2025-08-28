@@ -6,7 +6,7 @@ export default function Projetos() {
     <>
       <section className="grid grid-col justify-center gap-5">
         <div>
-          <h2 className="text-white font-destaques font-light pt-9 text-3xl">
+          <h2 className="text-white grid font-destaques font-light pt-9 text-3xl justify-center items-center">
             Projetos
           </h2>
         </div>

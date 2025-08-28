@@ -12,6 +12,8 @@ export default function Hero(){
                     <h2 className="font-destaques font-semi-bold text-3xl ">Front-End Developer</h2>
                     <p className=" gap-y-10 font-textoCorrido font-light">React, Type Script, JavaScript, HTML, CSS <br /> Inovação, performance e design na palma da sua mão.</p>
                 </div>
+
+                
             </section>
         </>
     )
